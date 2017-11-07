@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Casting Infrastructure as Code
 
 # Short description of your site
 description: A virtual proof that name is awesome!
@@ -55,11 +55,11 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
-  email: "youremail@domain.com"
+  name: Matt Muras
+  email: "mmuras@gmail.com"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
-  twitter: yourname   # eg. daattali
+  twitter: vmse_mmuras  # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourname  # eg. daattali
@@ -77,7 +77,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
+  facebook: false
   email: true
   twitter: true
   google-plus: false
