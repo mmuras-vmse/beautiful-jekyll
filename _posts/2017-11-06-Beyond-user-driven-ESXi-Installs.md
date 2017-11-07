@@ -2,7 +2,7 @@
 layout: post
 title: Beyond user driven ESXi installs
 subtitle: VMware Kickstart vs. AutoDeploy
-bigimg: /img/path.jpg
+# bigimg: /img/path.jpg
 date: 2017-11-06
 ---
 
