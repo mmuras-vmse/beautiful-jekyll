@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beyond user driven ESXi installs
-subtitle: VMware Kickstart vs. AutoDeploy (by Matt Muras)
+subtitle: VMware Kickstart vs. AutoDeploy
 date: 2017-11-06
 ---
 
