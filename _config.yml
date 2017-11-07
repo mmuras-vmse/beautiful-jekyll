@@ -23,6 +23,7 @@ description: Casting Infrastructure as Code!
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
+title: Matt Muras on Infrastructure as Code
 navbar-links:
   About Me: "aboutme"
   Resources:
@@ -37,7 +38,6 @@ navbar-links:
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 title-img: "/img/31595758.png"
-title: Matt Muras on Infrastructure as Code
 # --- Background colour/image options --- #
 
 # By default, the navigation bar and footer have a light gray background, and the main page
