@@ -8,7 +8,7 @@ I am a Network & Systems Architect for EVERI Games in Austin, TX.  Check out the
 
 My current focus:
 
-Q4-2017 - PowerCLI and PowerShell automating VMware Host build process
+PowerCLI and PowerShell automating VMware Host build process
 
 What I work on regularly...
 
