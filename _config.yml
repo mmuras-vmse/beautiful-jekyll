@@ -15,6 +15,7 @@ baseurl: ""
 
 # Name of website
 title: Matt Muras on Infrastructure as Code
+project: Test
 
 # Short description of your site
 description: Casting Infrastructure as Code!
@@ -36,13 +37,13 @@ navbar-links:
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 title-img: "/img/31595758.png"
-
+title: Matt Muras on Infrastructure as Code
 # --- Background colour/image options --- #
 
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-# navbar-col: "orange"
+navbar-col: "orange"
 # navbar-img: "/img/bgimage.png"
 # footer-col: "blue"
 # footer-img: "/img/bgimage.png"
