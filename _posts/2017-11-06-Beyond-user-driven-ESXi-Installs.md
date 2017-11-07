@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Beyond user driven ESXi installs
-subtitle: VMware Kickstart vs. AutoDeploy
+subtitle: VMware Kickstart vs. AutoDeploy (by Matt Muras)
 date: 2017-11-06
-by: Matt Muras
 ---
 
 I work for a company, on a team Architects which recently started to deploy servers with VMware ESXi and VMs for production builds on a larger scale.  The way we install is by ISO on USB or by ISO from iLO virtual CD.  This is not a bad way to go if you have 5 or 10 servers.  This is a problem, as USB installs are not sustainable for the company long-term with the number of hosts we want to eventually deploy.   
