@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Matt Muras
+subtitle: Network & Systems Architect
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am a Network & Systems Architect for EVERI Games in Austin, TX.  Check out the company [EVERI](http://www.everi.com) here.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My current focus:
 
-What else do you need?
+Q4-2017 - PowerCLI and PowerShell automating VMware Host build process
 
-### my history
+What I work on regularly...
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+VMware, PowerShell, PowerCLI, Cisco, Various Windows environments
