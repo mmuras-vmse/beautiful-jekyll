@@ -200,7 +200,7 @@ An interesting side effect is we can use a very similar method to basically laun
 
 Now we can try this out.  
 
-When booting a host you should see the following:
+When booting a "potential ESXi host" you should see the following:
 
 1. Post 
 2. PXE Boot from selected NIC
