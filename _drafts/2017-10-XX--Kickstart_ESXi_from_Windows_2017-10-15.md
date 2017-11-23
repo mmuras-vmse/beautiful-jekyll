@@ -196,7 +196,7 @@ So you have 2 things to do here:
     title=Loading ESXi installer
     timeout=5
     kernel=tboot.b00
-    kernelopt=ks=nfs://10.250.71.189/nfs_root/ks.cfg
+    kernelopt=ks=nfs://10.x.y.189/nfs_root/ks.cfg
     modules=b.b00 --- jumpstrt.gz ...```
 
 
