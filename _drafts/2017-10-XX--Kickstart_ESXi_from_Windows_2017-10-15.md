@@ -191,13 +191,13 @@ So you have 2 things to do here:
 1. Remove the leading "/" charecter on each file name (easy with notepad.exe) with a quick search and replace.  
 2. Set the kernelopt line to "kernelopt=ks=nfs://10.x.y.z/nfs_root/ks.cfg" or something similar
 
-    prefix=ESXi-6.0.0-Update2-3620759-HPE
+    ```prefix=ESXi-6.0.0-Update2-3620759-HPE
     bootstate=0
     title=Loading ESXi installer
     timeout=5
     kernel=tboot.b00
     kernelopt=ks=nfs://10.250.71.189/nfs_root/ks.cfg
-    modules=b.b00 --- jumpstrt.gz ...
+    modules=b.b00 --- jumpstrt.gz ...```
 
 
 An insteresting side effect is we can use a very similar method to basically launch any Linux based ISO we want by using this same method.
