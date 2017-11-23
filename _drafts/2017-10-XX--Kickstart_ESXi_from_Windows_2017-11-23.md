@@ -5,7 +5,7 @@ title:  Kickstart ESXi from Windows Server 2012
 
 2017-10-Xx
 
-Pardon my “phase-shifts” I have been in the field on assignment and prior to that I was deep in the tank trying to puzzle out another issue with storage.  Both are likely stories for another time (translation, good possibilities for blog posts).  Getting back to my current thoughts on deploying ESXi hosts, see my article [Beyond user driven ESXi installs](/../_posts/2017-11-06-Beyond-user-driven-ESXi-Installs/) here, I wanted to go a little deeper into the Kickstart realm.  
+Pardon my “phase-shifts” I have been in the field on assignment and prior to that I was deep in the tank trying to puzzle out another issue with storage.  Both are likely stories for another time (translation, good possibilities for blog posts).  Getting back to my current thoughts on deploying ESXi hosts, see my article [Beyond user driven ESXi installs](/2017-11-06-Beyond-user-driven-ESXi-Installs/) here, I wanted to go a little deeper into the Kickstart realm.  
 
 A Kickstart system is a method used to boot an ISO from some form of media, and then provide a certain configuration file (kickstart file) to ensure consistent installation. In my reading about Kickstart systems the main thing that keeps being repeated is, do all this in Linux. Take this version of Linux (usually Red Hat or CentOS) and build this Kickstart server. Let me say this right now, I relish the idea of running a Linux system to do this sort of task.
 
