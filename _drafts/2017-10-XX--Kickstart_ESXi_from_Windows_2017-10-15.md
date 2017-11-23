@@ -193,16 +193,14 @@ So you have 2 things to do here:
 
     prefix=ESXi-6.0.0-Update2-3620759-HPE
     bootstate=0
-    
     title=Loading ESXi installer
-    
     timeout=5
-    
     kernel=tboot.b00
-    
     kernelopt=ks=nfs://10.250.71.189/nfs_root/ks.cfg
     modules=b.b00 --- jumpstrt.gz ...
 
+
+An insteresting side effect is we can use a very similar method to basically launch any Linux based ISO we want by using this same method.
 
 Now we can try this out.  Please send me your feedback.  
 
