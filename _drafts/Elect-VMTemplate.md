@@ -5,7 +5,11 @@ subtitle: a PowerCLI function for more complex enivronments
 date: 2018-12-20
 ---
 
-My environment has been subject to some complexity creep. We have multiple people building / deploying production or proudction-like VMs from templates.  In my efforts to get closer to the One Deployment tool for all environments (Dev, QA, Production, etc.), I had to overcome a challenge.  The challenge was that sometimes my templates did not deploy correctly.  This happened to be because there were already several VMs (we were treating as Templates) with the same name in different VMHost Clusters.
+My environment has been subject to some complexity creep. We have multiple people building / deploying production or proudction-like VMs from templates.  In my efforts to get closer to the One Deployment tool for all environments (Dev, QA, Production, etc.), I had to overcome a challenge.  The challenge was that sometimes my templates did not deploy correctly.  This happened to be because there were already several VMs (we were treating as Templates) with the same name in different VMHost Clusters.  
+
+We have rather large "Mixed" vCenter environment.  The environment contains hooks to Dev, QA, and Production (and other environments).  Several of my teammates use a more restricted code base for deployment of VMs so the VMs only get created on the "Dev / QA" cluster.  In my tweaking of the scripts to make them more unified, I hit the "Duplicate Object" / "Object Already Exists" error and it was bombing out my automated VM deployments.
+
+Here is the [Elect-VMTemplate](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2004582) 
 
 
 
