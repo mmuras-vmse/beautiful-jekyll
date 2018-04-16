@@ -2,7 +2,7 @@
 layout: post
 title: Elect-VMTemplate
 subtitle: a PowerCLI function for selecting a VM from multiple VMs
-date: 2018-12-20
+date: 2018-02-20
 ---
 
 My environment has been subject to some complexity creep. We have multiple people building / deploying production or proudction-like VMs from templates.  In my efforts to get closer to the One Deployment tool for all environments (Dev, QA, Production, etc.), I had to overcome a challenge.  The challenge was that sometimes my templates did not deploy correctly.  This happened to be because there were already several VMs (we were treating as Templates) with the same name in different VMHost Clusters.  
