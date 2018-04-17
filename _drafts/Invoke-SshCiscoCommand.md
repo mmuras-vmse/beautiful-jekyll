@@ -25,7 +25,10 @@ NOTE: For more info on Posh-SSH, see link to [PowerShell Gallery - Possh-SSH](ht
 
 WARNING 1: To be fair, I may have made some security adjustments to this script which are not best practice.  
 
-WARNING 2: The script will execute what ever commands you send to the Cisco device (assuming your credentials are correct).
+WARNING 2: The script will execute any / all commands you send to the Cisco device (assuming your credentials 
+and the IP Address are correct).  Moreover, this script will not do any Cisco syntax checking for you.
+
+Here is the [Invoke-SshCiscoCommand](https://mmuras-vmse.github.io/_PS1-code/2018/Invoke-SshCiscoCommand.ps1) 
 
 	#----PowerShell function to send Cisco commands to Cisco device
 	
