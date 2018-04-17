@@ -2,7 +2,7 @@
 layout: post
 title: Invoke-SshCiscoCommand
 subtitle: a PowerShell function for sending Cisco syntax to a Cisco device
-date: 2018-04-16
+date: 2018-04-17
 ---
 
 In my environment we have had some serious changes that are getting a little bit hard to keep track of.  We have had quite a bit of 
@@ -17,13 +17,13 @@ For those that know Cisco, VTP can be a good thing and it can also be a VERY BAD
 are what drove my team to disable VTP as a whole in our Development / QA networks on premise.   
 
 The biggest immediate and visible setback with these conditions being true is we had to spend 5 to 10 minutes just changing / updating
-the list of 10+ different interfaces between the 3 core devices.  Thats not including having to update this on edge or other places.
+the list of 10+ different interfaces between the 3 core devices.  That's not including having to update this on edge or other places.
 
-For me, having the ability to "push" Cisco code to routers and rwitches is useful in another more different, yet potentially more powerful way.  I now can treat Cisco syntax just like a VM configuration.  In otherwords, I now have the ability to even further streamline scripts to build environments.  For example, if I want to build a VM on a new VLAN with a new subnet, then I can have the Cisco syntax and "Invoke-SshCiscoCommand" as just another section of PowerShell code and build my VLANs, subnet, and finally use other PowerShell / PowerCLI code to build the VM on the new subnet (which would be residing on the new VLAN).  By extension, I could also see doing the same thing with a VMHost, VMware ESXi.  
+For me, having the ability to "push" Cisco code to routers and switches is useful in another more different, yet potentially more powerful way.  I now can treat Cisco syntax just like a VM configuration.  In other words, I now have the ability to even further streamline scripts to build environments.  For example, if I want to build a VM on a new VLAN with a new subnet, then I can have the Cisco syntax and "Invoke-SshCiscoCommand" as just another section of PowerShell code and build my VLANs, subnet, and finally use other PowerShell / PowerCLI code to build the VM on the new subnet (which would be residing on the new VLAN).  By extension, I could also see doing the same thing with a VMHost, VMware ESXi.  
 
 I played with Putty and Plink.exe before and just dabbled in Posh-SSH.  This is my first real journey into the Posh-SSH world.
 
-NOTE: For more info on Posh-SSH, see link to [PowerShell Gallery - Possh-SSH](https://www.powershellgallery.com/packages/Posh-SSH/2.0.2)
+NOTE: For more info on Posh-SSH, see link to [PowerShell Gallery - Posh-SSH](https://www.powershellgallery.com/packages/Posh-SSH/2.0.2)
 
 WARNING 1: To be fair, I may have made some security adjustments to this script which are not best practice.  
 
