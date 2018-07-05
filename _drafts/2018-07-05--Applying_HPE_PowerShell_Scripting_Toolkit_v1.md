@@ -35,7 +35,7 @@ While some of you may have 10 or 20 servers.  What would you do if you had 50 se
 
 ### Table of Contents: 
 
-#### PART 0 – Intro and where to find these scripts
+#### PART 0 - Intro and where to find these scripts
 
 #### PART 1 - Nuts and Bolts and Accessing HPE iLO 
 
@@ -43,7 +43,7 @@ While some of you may have 10 or 20 servers.  What would you do if you had 50 se
 
 #### PART 3 - HP / HPE - BootMode and BootOrder 
 
-#### PART 4 - HP Demo – (live presentation only...for now) shows scripts discussed running together to setup a G9 Server 
+#### PART 4 - HP Demo - (live presentation only...for now) shows scripts discussed running together to setup a G9 Server 
 
 #======================================= 
 
