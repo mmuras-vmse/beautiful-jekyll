@@ -22,6 +22,57 @@
 
 #=======================================================
 
+
+Get-Command *HP* | where { $_.Source -match 'EVERI_HP' }
+
+<#
+
+PS C:\Users\matthew.muras\Documents\github\mmuras-vmse.github.io> Get-Command *HP* | where { $_.Source -match 'EVERI_HP' }
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        AddTo-HPLegacyBootOrder                            1.1.3      EVERI_HPServer
+Function        Compare-HPEServerBiosContent                       1.1.3      EVERI_HPServer
+Function        Get-HPBootModeHashTable                            1.1.3      EVERI_HPServer
+Function        Get-HPBootOrderHashTable                           1.1.3      EVERI_HPServer
+Function        Get-HPCurrentBootMode                              1.1.3      EVERI_HPServer
+Function        Get-HPCurrentBootOrder                             1.1.3      EVERI_HPServer
+Function        Get-HPiLONic                                       1.1.3      EVERI_HPServer
+Function        Get-HPiLONicHash                                   1.1.3      EVERI_HPServer
+Function        Get-HPPendingBootMode                              1.1.3      EVERI_HPServer
+Function        Get-HPServerBiosContent                            1.1.3      EVERI_HPServer
+Function        Get-HPServerPowerState                             1.1.3      EVERI_HPServer
+Function        Get-MyHPEBiosEntryHash                             1.1.3      EVERI_HPServer
+Function        Invoke-HPBootOrderConfig                           1.1.3      EVERI_HPServer
+Function        PowerOff-HPServer                                  1.1.3      EVERI_HPServer
+Function        PowerOn-HPServer                                   1.1.3      EVERI_HPServer
+Function        Set-HPBootOrderFirstDevice                         1.1.3      EVERI_HPServer
+Function        Set-HPPendingBootMode                              1.1.3      EVERI_HPServer
+Function        Update-HPEBIOSAdminPassword                        1.1.3      EVERI_HPServer
+Function        Validate-HPBootModeHashTable                       1.1.3      EVERI_HPServer
+
+
+#>
+
+Get-Command *HP* | where { $_.Source -match 'Tech' }
+
+<#
+
+PS C:\Users\matthew.muras\Documents\github\mmuras-vmse.github.io> Get-Command *HP* | where { $_.Source -match 'Tech' }
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Get-HPSetting                                      1.0.0      TechThoughts_HPServer
+Function        New-HpSession                                      1.0.0      TechThoughts_HPServer
+Function        Remove-HpSession                                   1.0.0      TechThoughts_HPServer
+Function        Set-HpBiosJson                                     1.0.0      TechThoughts_HPServer
+Function        Set-HPBIOSSettings                                 1.0.0      TechThoughts_HPServer
+Function        Test-HPRestCall                                    1.0.0      TechThoughts_HPServer
+
+#>
+
+#=======================================================
+
 # 2. Setup the ILOs so we can start working with them in PowerShell
 
 # 2.a. Find Available ILOs that have IPs like x.y.z
