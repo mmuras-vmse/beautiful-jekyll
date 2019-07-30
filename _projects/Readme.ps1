@@ -9,10 +9,15 @@
 
         Steps:
             1. Create a directory on the local file system.
+
             2. Create a repo on Github.
+
             3. Select Clone "Clone or download" on Github, copy the link
+
             4. In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory
+
             5. Select Terminal Window
+            
             6. In the window, type:
                 git config --global user.name <github userID>
 
@@ -20,5 +25,21 @@
 
                 That should be all that's required.  any newly created file should be available on github after stage/commit/push.
 
+#=========================================================================================
 #
+##  ? How to Get data from Git-Hub
+
+    1. git pull # (downloads repository with latest changes)
+
+    2. Make code changes
+
+    3. Save file
+
+    4. Stage Changes (hit '+' icon)
+
+    5. Commit Changes (hit 'check' icon) and type commit message and press ENTER key
+
+    6. git push # (uploads data from local copy to respository)
+
+
 #>
